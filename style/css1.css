@@ -51,7 +51,11 @@ text-align: center;
 font-size: 100px}
 main h2{color: rgb(3, 28, 97);
 font-size: 50px	;}
-main{background-color: rgb(148, 148, 129);}
+main{background-color: rgb(40, 100, 95);}
 footer{background-color: black;
 text-align: center;
 color: cornsilk;}
+img{height: 200px;
+width: 200px;
+float: right;}
+body{background-color: rgb(46, 105, 105)}
