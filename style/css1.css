@@ -58,4 +58,16 @@ color: cornsilk;}
 img{height: 200px;
 width: 200px;
 float: right;}
-body{background-color: rgb(46, 105, 105)}
+h1{background-color: rgb(46, 105, 105);
+margin: 10px;
+padding: 10px;
+border:10px;}
+h2{margin: 10px;
+border: 10px;
+padding: 10px}
+ul li{margin:5px;
+border: 5px;
+padding:5px;}
+p{margin:5px;
+border: 5px;
+padding:5px;}
