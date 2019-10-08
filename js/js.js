@@ -1,57 +1,55 @@
-/*var username=prompt('Hi ,what is your name?');
+var username=prompt('Hi ,what is your name?');
 alert("welcome "+ username );
 var major=prompt('are you a computer engineer?'); //ask user
 var majorcon=major.toLowerCase(major);     // convert litters  to lower case
-
+var score=0;
 switch(majorcon) {
     case 'yes':
     case 'y' :
           alert('me too');
+          score=score+1;
           break;
     default: alert('ooooops');
     
 }
-console.log('major',major);
-console.log('majorcon',majorcon);
 var study=prompt('are you studied in jordan?');
 var studycon=study.toLowerCase(study);
 switch(studycon){
     case 'yes':
     case 'y':
         alert('me too');
+        score=score+1;
         break;
     default : alert ('I am studied in jordan');
 }
-console.log('study',study);
-console.log('study',study);
 var age=prompt('Is your age 32?');
 var agecon=age.toLowerCase(age);
 switch(agecon){
     case 'yes':
     case 'y':
         alert('Iam 32');
+        score=score+1;
         break;
     default : alert('Iam not ,I am 32');
 }
-console.log('age',age);
-console.log('agecon',agecon);
-var using=prompt('Do like using a computer?');
+/*var using=prompt('Do like using a computer?');
 var usingcon=using.toLowerCase(using);
 switch(usingcon){
     case 'yes':
     case 'y':
         alert('me toooo');
+        score=score+1;
         break;
     default : alert('why not!!!!!!!');
-}
-console.log('using',using);
-console.log('usingcon',usingcon);
+}*/
+
 var using=prompt('Do like using a computer?');
 var usingcon=using.toLowerCase(using);
 switch(usingcon){
     case 'yes':
     case 'y':
         alert('me toooo');
+        score=score+1;
         break;
     default : alert('why not!!!!!!!');
 }
@@ -62,12 +60,10 @@ switch(jscon){
     case 'yes':
     case'y':
     alert('Great');
+    score=score+1;
     break;
 default :alert('It is Java Script');
 }
-console.log('js',js);
-console.log('jscon',jscon);*/
-
 for (var i = 0; i < 4; i++) {
     var inputGuess = prompt('How many sister(s) I have?');
     if (inputGuess > 3) {
@@ -77,6 +73,7 @@ for (var i = 0; i < 4; i++) {
         alert('tooo low');
     } else if (inputGuess = 3) {
         alert('corecct answer');
+        score=score+1;
         break;
     }
 }
@@ -91,11 +88,12 @@ switch(userGuess) {
     case myAnswer[4]:
             alert(' correct');
             i=5;
+            score=score+1;
             break;
     default:
         alert('not correct');
     break;}
 
 }
-
-
+alert('your score is'+ score);
+console.log(score);
