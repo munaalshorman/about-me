@@ -1,5 +1,4 @@
-' use strict ';
-var username=prompt('Hi ,what is your name?');
+/*var username=prompt('Hi ,what is your name?');
 alert("welcome "+ username );
 var major=prompt('are you a computer engineer?'); //ask user
 var majorcon=major.toLowerCase(major);     // convert litters  to lower case
@@ -67,4 +66,38 @@ switch(jscon){
 default :alert('It is Java Script');
 }
 console.log('js',js);
-console.log('jscon',jscon);
+console.log('jscon',jscon);*/
+
+for (var i = 0; i<4; i++)
+{ 
+var inputGuess = prompt('How many sister(s) I have?');
+        if (inputGuess > 3) {
+                            alert('tooo high');
+                            }
+        else if (inputGuess < 3) {
+                               alert('tooo low');
+         } else if (inputGuess = 3){
+                            alert('corecct answer');
+                            break; 
+        }
+}
+
+var myAnswer=["roma","florance","madrid","egypt","paris"];
+for(i=0;i<5;i++)
+{   var userGuess = prompt('What is places i want to visit?') ;
+compareee(userGuess);
+/////// compare function
+function compareee()
+{for (var d=0;d<myAnswer.length;d++){
+    if (userGuess==myAnswer[d])
+    {alert ('great answer'); 
+}
+else if(userGuess!= myAnswer[d])
+ {alert('wrong answer!!!');
+
+}}
+
+console.log(myAnswer[d]);
+}
+
+}
